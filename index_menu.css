@@ -1,0 +1,16 @@
+.content{
+    /* display: flex; */
+    /* word-break: normal; */
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    white-space: pre-wrap;
+    color: #9e329c;
+    font-size: 20px;  /*#3rem*/
+    max-width: 1000px;
+    margin: 0.5 auto;
+}
+.first{
+    color: #9e3232;
+    white-space: pre-wrap;
+}

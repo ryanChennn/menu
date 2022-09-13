@@ -1,16 +1,28 @@
 .content{
-    /* display: flex; */
-    /* word-break: normal; */
-    align-items: center;
+    display: flex;  /*垂直置中*/
+    align-items: center;/*垂直置中*/
+    color: brown;
+    /* width: 1000px; */
     justify-content: center;
-    height: 100vh;
-    white-space: pre-wrap;
-    color: #9e329c;
-    font-size: 20px;  /*#3rem*/
-    max-width: 1000px;
-    margin: 0.5 auto;
+    border: 1px solid silver;
+    text-align: center;/*水平置中*/
+    /* align-content: center; */
+    /* flex-wrap: wrap; */
 }
-.first{
-    color: #9e3232;
-    white-space: pre-wrap;
+.content p{
+    flex: 1;
+    font-size: 3ch;
+    font-weight: bold;
+    /* border: 1px solid rgb(26, 16, 93); */
 }
+
+.fig{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.ingrediant {
+    font-size: 1.5ch;
+}
+
